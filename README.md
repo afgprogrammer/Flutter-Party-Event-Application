@@ -6,7 +6,7 @@ This repository is a part of the 100-day design in Flutter.
 
 In this video we use, Flutter Animation, AnimationController, Scale and so on in the one-speed video.
 
-[Youtube Video](https://youtu.be/WsbMf9IiWGo)
+[Youtube Video](https://www.youtube.com/watch?v=pRzP34u786w)
 
 ## Last Design
 - [UI Design- Day 1](https://github.com/afgprogrammer/flutter-inspiration-app-ui)
