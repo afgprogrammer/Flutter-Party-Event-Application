@@ -7,8 +7,8 @@ class FindEvent extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color.fromRGBO(246, 248, 253, 1),
       appBar: AppBar(
-        backgroundColor: Colors.transparent,
-        elevation: 0,
+        backgroundColor: Colors.white,
+        // elevation: 0,
         brightness: Brightness.light,
         leading: Icon(Icons.menu, color: Colors.black,),
         actions: <Widget>[
@@ -46,17 +46,21 @@ class FindEvent extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
               FadeAnimation(1, Container(
-                padding: EdgeInsets.symmetric(vertical: 5),
+                padding: EdgeInsets.only(top: 5),
                 decoration: BoxDecoration(
+                  border: Border.all(color: Colors.black),
                   borderRadius: BorderRadius.circular(50),
                   color: Colors.white
                 ),
                 child: TextField(
                   decoration: InputDecoration(
+                    // border: OutlineInputBorder(
+                    //   borderSide: BorderSide(color: Colors.black)
+                    // ),
                     border: InputBorder.none,
-                    prefixIcon: Icon(Icons.search, color: Colors.grey,),
+                    prefixIcon: Icon(Icons.search, color: Colors.black,),
                     hintText: "Search Event",
-                    hintStyle: TextStyle(color: Colors.grey)
+                    hintStyle: TextStyle(color: Colors.black)
                   ),
                 ),
               )),

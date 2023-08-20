@@ -75,11 +75,11 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
             mainAxisAlignment: MainAxisAlignment.end,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: <Widget>[
-              FadeAnimation(1, Text("Find the best locations near you for a good night.", 
-              style: TextStyle(color: Colors.white, fontSize: 40, fontWeight: FontWeight.bold, height: 1.1),)),
+              FadeAnimation(1, Text("Find the Best Locations Near you for a Good Night.", 
+              style: TextStyle(color: Colors.white, fontSize: 44, fontWeight: FontWeight.w900, height: 1.1),)),
               SizedBox(height: 30,),
               FadeAnimation(1.2, Text("Let us find you an event for your interest", 
-              style: TextStyle(color: Colors.white.withOpacity(.7), fontSize: 25, fontWeight: FontWeight.w100),)),
+              style: TextStyle(color: Colors.white.withOpacity(.8), fontSize: 25, fontWeight: FontWeight.w400),)),
               SizedBox(height: 150,),
               FadeAnimation(1.4, InkWell(
                 onTap: () {
@@ -101,7 +101,7 @@ class _HomePageState extends State<HomePage> with SingleTickerProviderStateMixin
                       child: hide == false ? Row(
                         mainAxisAlignment: MainAxisAlignment.spaceAround,
                         children: <Widget>[
-                          Text("Find nearest event", style: TextStyle(color: Colors.white, fontSize: 17),),
+                          Text("Find nearest event", style: TextStyle(color: Colors.white, fontSize: 18, fontWeight: FontWeight.w400),),
                           Icon(Icons.arrow_forward, color: Colors.white,)
                         ],
                       ) : Container(),
